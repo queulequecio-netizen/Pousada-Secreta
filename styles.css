@@ -1,0 +1,250 @@
+Body{
+    font-family:'Source Sans Pro', 'sans-serif';
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.secao-topo {
+    background-color:#fff;
+    max-width:1524px;
+    min-width: 1024px;
+    position:fixed;
+    top:0;
+    z-index: 1;
+    width:100%;
+    height:80px;
+}
+
+.link-principal{
+    color:#4f4b5c;
+    font-weight:600;
+    font-size:36px;
+    text-decoration:none;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.secao-topo h2{
+    font-size:28px;
+    position:absolute;
+    left:100px;
+    top:5px;
+}
+
+.container-topo{
+    max-width:1524px;
+    min-width: 1024px;
+    width:100%;
+    margin:auto;
+    position:relative;
+}
+
+.menu-navegacao{
+    position:absolute;
+    right:100px;
+    top:25px;
+}
+
+.menu-navegacao a{
+    margin:auto auto auto 30px;
+    font-size:18px;
+    font-weight:600;
+    text-decoration:none;
+    color:#2d8d70;
+}
+
+.destaque{
+    color:rgb(60, 141, 216);
+}
+
+.banner-fundo{
+    background-image: url(Imagens/img-fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    position:relative;
+}
+
+.subcontainer-banner{
+    background-color:rgb(157, 236, 232);
+    color: white;
+    text-align: center;
+    border:2px solid #fff;
+    width:30%;
+    height:200px;
+    margin:auto;
+    position:absolute;
+    top:320px;
+    left:500px;
+    background-color: #0a9077b3;
+   
+}
+
+.subcontainer-banner h1{
+    padding-top:20px;
+    font-size:48px;
+    font-weight:bold;
+}
+
+.subcontainer-banner p{
+    font-size:25px;
+    color:#fff;
+    padding:10px;
+}
+
+.secao-conteudo{
+    max-width:1524px;
+    width:100%;
+    height:90vh;
+    min-width: 1024px;
+    margin:auto 0;
+    background-color:#fff;
+    box-sizing:border-box;
+}
+
+.container-conteudo{
+    width:100%;
+    text-align:center;
+    width:70%;
+    padding: 15px auto;
+    margin:80px auto 30px auto;
+}
+
+.container-conteudo h2{
+    font-size:32px;
+    color:#2d8d70;
+    margin-bottom:10px;
+}
+
+.container-conteudo p{
+    font-size:18px;
+    color:#4f4b5c;
+    margin:20px 0;
+}
+
+.subcontainer-card img{
+    width:400px;
+    height:300px;
+
+}
+
+.subcontainer-card h3 a{
+    font-size:24px;
+    color:#4f4b5c;
+    text-decoration:none;
+    margin-top:20px;
+}
+
+.subcontainer-card h3{
+    border-bottom:2px solid #2d8d72;
+    padding-bottom:20px; 
+}
+
+.container-card{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+}
+
+.subcontainer-card{
+    width:28%;
+    margin:0 1.5%;
+    box-sizing: border-box;
+    padding:10px;
+    text-align:center;
+}
+
+.secao-mapa{
+    max-width:1524px;
+    width:100%;
+    height:90vh;
+    min-width: 1024px;
+    margin:auto 0;
+    background-color:#fff;
+    box-sizing:border-box;
+    padding-bottom:30px;
+    text-align:center;
+    border: 2px solid #000;
+}
+
+.secao-mapa h2{
+    font-size:30px;
+    color:#2d8d70;
+    margin-top:20px;
+}
+
+iframe{
+    width:100%;
+    margin:auto;
+    box-sizing: border-box;
+}
+
+.secao-mapa p{
+    font-size:20px;
+    color:#4f4b5c;
+    margin:40px 0;
+}
+
+.secao-sobre{
+    max-width:1524px;
+    width:100%;
+    height:90vh;
+    min-width: 1024px;
+    margin:auto 0;
+    background-color:#fff;
+    box-sizing:border-box;
+    padding-bottom:30px;
+    text-align:center;
+}
+
+.secao-sobre h2{
+    font-size:30px;
+    color:#2d8d70;
+    margin-top:20px;
+}
+
+.secao-sobre img{
+    width:100px;
+    height:90px;
+    box-sizing: border-box;
+    flex-grow:1;
+}
+
+.secao-sobre p{
+    font-size:18px;
+    color:#4f4b5c;
+    margin:20px 0;
+}
+
+.card-sobre{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    display: flex;
+    justify-content:space-around;
+    border:2px solid #d04310;
+    width:100%;
+    height:70%;
+    flex-wrap: wrap;
+    gap:5px;
+    box-sizing: border-box;
+}
+
+.container-sobre p{
+    font-size:15px;
+    color:#4f4b5c;
+    text-align:center;
+    justify-content:flex-start;
+}
+
+.container-sobre{
+    display:flex;
+    align-items:end;
+    flex-direction:column;
+    width:35%;
+    height:150px;
+    border:1px solid #000;
+}
