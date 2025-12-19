@@ -220,31 +220,31 @@ iframe{
 }
 
 .card-sobre{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    display: flex;
-    justify-content:space-around;
-    border:2px solid #d04310;
     width:100%;
-    height:70%;
-    flex-wrap: wrap;
-    gap:5px;
+    height:100vh;
+    border: 2px solid #000;
     box-sizing: border-box;
-}
-
-.container-sobre p{
-    font-size:15px;
-    color:#4f4b5c;
-    text-align:center;
-    justify-content:flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap:10px;
+    justify-content:center;
+    margin:auto;
 }
 
 .container-sobre{
-    display:flex;
-    align-items:end;
-    flex-direction:column;
-    width:35%;
-    height:150px;
-    border:1px solid #000;
+    width:40%;
+    height:200px;
+    border:2px solid #000;
+    padding:10px;
+    box-sizing: border-box;
+    text-align:center;
 }
+
+.subcontainer-card{
+    width:20%;
+    height:60px;
+    margin:auto;
+}
+
+
