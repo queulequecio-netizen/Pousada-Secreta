@@ -141,9 +141,8 @@ Body{
     background-position:top;
     background-size: cover;
     width:100%;
-    height:270px;
-    background-repeat: no-repeat;
-    box-sizing: border-box;
+    height:40vh;
+    padding:0 20px;
 }
 
 .secao-conteudo-quartos{
@@ -237,5 +236,6 @@ Body{
    gap: 40px; 
    align-items: left;
 }
+
 
 
