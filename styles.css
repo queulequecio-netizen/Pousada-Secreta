@@ -7,13 +7,11 @@ Body{
 
 .secao-topo {
     background-color:#fff;
-    max-width:1524px;
-    min-width: 1024px;
-    position:fixed;
-    top:0;
     z-index: 1;
     width:100%;
-    height:80px;
+    position: static;
+    height: auto; 
+    padding: 12px 0;
 }
 
 .link-principal{
@@ -355,3 +353,4 @@ iframe{
     text-align:center;
     margin: 40px auto 0;
 }
+
