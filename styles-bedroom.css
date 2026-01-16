@@ -145,6 +145,13 @@ Body{
     padding:0 20px;
 }
 
+.container-topo, .secao-conteudo, .secao-mapa, 
+ .secao-conteudo-quartos{ 
+ max-width: 1100px; 
+ margin: 0 auto; 
+ padding: 0 16px; 
+ }
+
 .secao-conteudo-quartos{
     max-width:1524px;
     width:100%;
@@ -170,6 +177,12 @@ Body{
     height:220px;
     margin: 10px 15px;
 }
+
+img{ 
+ max-width: 100%; 
+ height: auto; 
+ display: block; 
+ }
 
 .subcontainer-descricao{
     width:30%;
@@ -236,6 +249,7 @@ Body{
    gap: 40px; 
    align-items: left;
 }
+
 
 
 
