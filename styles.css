@@ -9,10 +9,13 @@ Body{
     background-color:#fff;
     z-index: 1;
     width:100%;
-    position: static;
-    height: auto; 
-    padding: 12px 0;
+    position: fixed;
+    top:0;
+    max-width:1524px;
+    min-width: 1024px;
+    height:80px;
 }
+
 
 .link-principal{
     color:#4f4b5c;
@@ -35,9 +38,11 @@ Body{
     width:100%;
     margin:auto;
     position:relative;
+    
 }
 
 .menu-navegacao{
+    position:static;
     position:absolute;
     right:100px;
     top:25px;
@@ -57,7 +62,7 @@ Body{
 
 
 .banner-fundo{
-    background-image: url(Imagens/img-fundo.jpg);
+    background-image: url(assets/img-fundo.jpg);
     background-position: center;
     background-size: contain;
     width:100%;
@@ -150,7 +155,7 @@ Body{
 }
 
 .subcontainer-card{
-    width:28%;
+    width:100%;
     margin:0 10px;
     box-sizing: border-box;
     padding:10px;
@@ -161,7 +166,6 @@ Body{
     max-width:1524px;
     width:100%;
     height:90vh;
-    min-width: 1024px;
     margin:auto ;
     background-color:#fff;
     box-sizing:border-box;
@@ -283,10 +287,13 @@ iframe{
     color:#fff;
     border:2px solid #0a9854;
     margin: 0px auto;
+    flex-direction: row; 
+    height: auto; 
+    padding: 16px 0; 
     display: flex;
-    flex-direction:row;
     align-items:center;
     justify-content:space-around;
+    
     
 }
 .secao-contato p{
@@ -318,10 +325,11 @@ iframe{
 }
 
 .subcontainer-contato{
-    width:22%;
     height:65px;
+    width: 22%; 
+    justify-content: flex-start; 
     display: flex;
-    justify-content:flex-start;
+   
 }
 
 .subcontainer-contato p{
