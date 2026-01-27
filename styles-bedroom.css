@@ -7,7 +7,6 @@ Body{
 
 .secao-topo {
     background-color:#fff;
-    max-width:1524px;
     position:fixed;
     top:0;
     z-index: 1;
@@ -59,11 +58,10 @@ Body{
 .banner-quartos img{
     background-image: url(assets/img-fundo.jpg);
     background-position:center;
-    background-size: cover;
+    background-size: contain;
     width:100%;
     height:100vh;
     margin:0px auto;
-    
 }
 
 
@@ -236,5 +234,6 @@ Body{
     text-align:center;
     margin: 40px auto 0;
 }
+
 
 
