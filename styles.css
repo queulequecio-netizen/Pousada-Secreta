@@ -66,8 +66,6 @@ Body{
     background-position: center;
     background-size: contain;
     width:100%;
-    background-repeat: no-repeat;
-    box-sizing: border-box;
     position:relative;
 }
 
@@ -129,8 +127,8 @@ Body{
 }
 
 .subcontainer-card img{
-    width:400px;
-    height:300px;
+    width:320px;
+    height:200px;
 
 }
 
@@ -361,4 +359,5 @@ iframe{
     text-align:center;
     margin: 40px auto 0;
 }
+
 
