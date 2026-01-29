@@ -11,8 +11,6 @@ Body{
     width:100%;
     position: fixed;
     top:0;
-    max-width:1524px;
-    min-width: 1024px;
     height:80px;
 }
 
@@ -33,8 +31,6 @@ Body{
 }
 
 .container-topo{
-    max-width:1524px;
-    min-width: 1024px;
     width:100%;
     margin:auto;
     position:relative;
@@ -62,10 +58,14 @@ Body{
 
 
 .banner-fundo{
-    background-image: url(assets/img-fundo.jpg);
+    background-image: url(./assets/img-fundo.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     width:100%;
+    height:auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
     position:relative;
 }
 
@@ -97,13 +97,10 @@ Body{
 }
 
 .secao-conteudo{
-    max-width:1524px;
     width:100%;
-    height:90vh;
-    min-width: 1024px;
+    height:500px;
     margin:auto 0;
     background-color:#fff;
-    box-sizing:border-box;
 }
 
 .container-conteudo{
@@ -129,7 +126,6 @@ Body{
 .subcontainer-card img{
     width:320px;
     height:200px;
-
 }
 
 .subcontainer-card h3 a{
@@ -161,7 +157,6 @@ Body{
 }
 
 .secao-mapa{
-    max-width:1524px;
     width:100%;
     height:90vh;
     margin:auto ;
@@ -191,11 +186,8 @@ iframe{
 }
 
 .secao-sobre{
-    max-width:1524px;
     width:100%;
     height:600px;
-    max-height:900px;
-    overflow: auto;
     margin: 10px auto 5px auto;
     background-color:#fff;
     box-sizing:border-box;
@@ -359,5 +351,4 @@ iframe{
     text-align:center;
     margin: 40px auto 0;
 }
-
 
